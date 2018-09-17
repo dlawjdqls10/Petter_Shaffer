@@ -10,8 +10,8 @@ class Show(models.Model):
     place = models.CharField(max_length=300, verbose_name="공연장소")
     cast_set = models.ManyToManyField('Cast', verbose_name="참여인원")
     circle = models.ForeignKey('Circle', on_delete=models.CASCADE, blank=True)
-    summary = models.TextFeild(verbose_name="내용설명")
-    price = models.IntegerField(verbose_name="가격", blank=True)
+    summary = models.TextField(verbose_name="내용설명", blank=True, null=True)
+    price = models.CharField(max_length=20, verbose_name="가격", blank=True, null=True)
 
 
 class Circle(models.Model):

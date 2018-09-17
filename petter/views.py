@@ -1,3 +1,6 @@
 from django.shortcuts import render
+from .models import Show, Cast, Circle
 
-# Create your views here.
+
+def main(request):
+    return render(request, 'petter.html')
