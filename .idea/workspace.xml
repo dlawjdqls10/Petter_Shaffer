@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b20ed725-287f-47a2-a3a0-38fffbdbea90" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/petter/templates/petter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/drama.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/drama.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drama/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drama/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petter/templates/petter.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/petter/templates/petter.html" beforeDir="false" afterPath="$PROJECT_DIR$/petter/templates/petter.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,20 +33,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="petter.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/petter/templates/petter.html">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drama/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="114">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="petter.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petter/templates/petter.css">
+      <file leaf-file-name="petter.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/petter/templates/petter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="57">
+              <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -56,6 +58,18 @@
               <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/petter/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,7 +99,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/drama/settings.py" />
         <option value="$PROJECT_DIR$/account/models.py" />
         <option value="$PROJECT_DIR$/petter/admin.py" />
         <option value="$PROJECT_DIR$/drama/urls.py" />
@@ -94,6 +107,7 @@
         <option value="$PROJECT_DIR$/account/views.py" />
         <option value="$PROJECT_DIR$/petter/models.py" />
         <option value="$PROJECT_DIR$/petter/views.py" />
+        <option value="$PROJECT_DIR$/drama/settings.py" />
         <option value="$PROJECT_DIR$/petter/templates/petter.html" />
       </list>
     </option>
@@ -107,10 +121,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="21" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="765" />
+    <option name="y" value="55" />
     <option name="width" value="918" />
-    <option name="height" value="788" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,23 +133,47 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="drama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Petter_Shaffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Petter_Shaffer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Petter_Shaffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Petter_Shaffer" type="462c0819:PsiDirectoryNode" />
               <item name="drama" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="drama" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drama" type="462c0819:PsiDirectoryNode" />
+              <item name="Petter_Shaffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Petter_Shaffer" type="462c0819:PsiDirectoryNode" />
               <item name="petter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Petter_Shaffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Petter_Shaffer" type="462c0819:PsiDirectoryNode" />
+              <item name="petter" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Petter_Shaffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Petter_Shaffer" type="462c0819:PsiDirectoryNode" />
+              <item name="petter" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Petter_Shaffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Petter_Shaffer" type="462c0819:PsiDirectoryNode" />
+              <item name="petter" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,8 +250,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -220,11 +258,12 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3289689" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12708019" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29650092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12874494" />
+      <window_info anchor="right" id="R Packages" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="R Graphics" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -235,6 +274,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +284,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/petter/templates/petter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petter/templates/petter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petter/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -330,34 +394,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petter/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/petter/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drama/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drama/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petter/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -369,17 +413,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/petter/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/petter/templates/petter.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="19">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petter/static/css/petter.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drama/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petter/templates/petter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="57">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
         </state>
       </provider>
     </entry>
