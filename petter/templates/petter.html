@@ -26,7 +26,9 @@
 		<nav>
 			<div class="logo">peter<br>sheppard</div>
 			<ul>
-				<li><a href="#">teamA</a></li>
+        {% for show in shows %}
+ 				  <li><a href="#">{{ show }}</a></li>
+        {% endfor %}
 				<li><a href="#">teamB</a></li>
 				<li><a href="#">teamC</a></li>
 				<li><a href="#">teamD</a></li>

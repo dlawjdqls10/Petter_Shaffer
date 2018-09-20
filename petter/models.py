@@ -13,13 +13,20 @@ class Show(models.Model):
     summary = models.TextField(verbose_name="내용설명", blank=True, null=True)
     price = models.CharField(max_length=20, verbose_name="가격", blank=True, null=True)
 
+    def __str__(self):
+        return self.title
+
 
 class Circle(models.Model):
     name = models.CharField(max_length=50, verbose_name="동아리명")
+
+    def __str__(self):
+        return self.name
 
 
 class Cast(models.Model):
     name = models.CharField(max_length=50, verbose_name="이름")
     image = models.ImageField(upload_to='image/', verbose_name="사진", blank=True)
 
-
+    def __str__(self):
+        return self.name

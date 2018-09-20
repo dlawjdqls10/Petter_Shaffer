@@ -3,4 +3,6 @@ from .models import Show, Cast, Circle
 
 
 def main(request):
-    return render(request, 'petter.html')
+    shows = Show.objects.all()
+    circles = Circle.objects.all()
+    return render(request, 'petter.html', {'shows': shows, 'circles': circles})
