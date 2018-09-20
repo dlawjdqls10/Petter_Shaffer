@@ -27,7 +27,9 @@
 			<div class="logo">peter<br>sheppard</div>
 			<ul>
         {% for show in shows %}
+          {% if show %}
  				  <li><a href="#">{{ show }}</a></li>
+          {% endif %}
         {% endfor %}
 				<li><a href="#">teamB</a></li>
 				<li><a href="#">teamC</a></li>
