@@ -26,9 +26,9 @@
 		<nav>
 			<div class="logo">peter<br>sheppard</div>
 			<ul>
-        {% for show in shows %}
-          {% if show %}
- 				  <li><a href="#">{{ show }}</a></li>
+        {% for circle in circles %}
+          {% if circle %}
+ 				  <li><a href="#">{{ circle.name }}</a></li>
           {% endif %}
         {% endfor %}
 				<li><a href="#">teamB</a></li>
